@@ -4,8 +4,10 @@ public class Booking
 {
     public Guid Id { get; set; }
 
-    public User passenger { get; set; }
+    public User user { get; set; }
 
+    public Guid UserId { get; set; }
+    
     public Flight Flight { get; set; }
     
     public DateTime BookingDate { get; set; }
